@@ -38,7 +38,7 @@ if __name__ == '__main__':
                     result = Quotes(tags=quote['tags'], author=Authors.objects.get(fullname=quote['author']),  
                                     quotes=quote['quote'])
                     result.save()
-            print ('all ok')     
+            print (' ok')     
 
        elif menu == "3":
            name =  input('author: ') 

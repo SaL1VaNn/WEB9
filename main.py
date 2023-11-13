@@ -5,7 +5,6 @@ from scrapy.crawler import CrawlerProcess
 from scrapy.item import Item, Field
 
 
-# url = 'http://quotes.toscrape.com/'
 
 class QuoteItem(Item):
     tags = Field()
